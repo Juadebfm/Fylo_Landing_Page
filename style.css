@@ -249,4 +249,154 @@ main .hero .hero_details form button:hover {
 .social_prove_sub .profile_details span:nth-child(1) {
   font-weight: 800;
 }
+
 /* Social Prove Section */
+
+/* CTA Section */
+.CTA {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  height: 40vh;
+  background-color: var(--sec-blue);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-content: center center;
+  gap: 5rem;
+}
+
+.CTA_details h3 {
+  line-height: 1.4;
+  font-weight: 800;
+  font-family: var(--raleway);
+  font-size: 30px;
+  margin-bottom: 18px;
+  color: var(--lightest-grey-blue);
+}
+
+.CTA_details p {
+  color: var(--lightest-grey-blue);
+  width: 90%;
+  line-height: 1.6;
+}
+
+.CTA_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.CTA_form input {
+  width: 80%;
+  padding: 15px 10px;
+  border: 1px solid var(--primary-blue);
+  color: var(--primary-blue);
+  border-radius: 3px;
+  margin-bottom: 25px;
+  border: none;
+  outline: none;
+}
+
+.CTA_form input::placeholder {
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.CTA_form button {
+  width: 30%;
+  font-size: 15px;
+  background-color: var(--tertiary-blue);
+  color: var(--lightest-grey-blue);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 12px 10px;
+}
+
+.CTA_form button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0 1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  background-color: var(--tertiary-blue_hover);
+}
+/* CTA Section */
+
+/* Footer Section */
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: var(--primary-blue);
+  color: var(--lightest-grey-blue);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 50vh;
+  gap: 2rem;
+}
+
+.footer section:nth-child(1) img {
+  width: 120px;
+  height: auto;
+}
+
+.footer ul:first-of-type,
+.footer ul:last-of-type,
+.footer section:last-of-type {
+  padding-top: 4rem;
+}
+
+.footer section:first-of-type div:first-of-type {
+  margin-top: 1.5rem;
+}
+
+.footer section:first-of-type div:first-of-type,
+.footer section:first-of-type div:last-of-type {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 11px;
+}
+
+.footer section:first-of-type div:first-of-type i,
+.footer section:first-of-type div:last-of-type i {
+  font-size: 1.4em;
+}
+
+.footer ul:first-of-type,
+.footer ul:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 18px;
+}
+
+.footer ul:first-of-type a,
+.footer ul:last-of-type a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer ul:first-of-type li:hover,
+.footer ul:last-of-type li:hover {
+  color: var(--tertiary-blue_hover);
+}
+
+.footer section:last-of-type {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer section:last-of-type i {
+  font-size: 1.5em;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer section:last-of-type i:hover {
+  color: var(--tertiary-blue_hover);
+  transition: all 0.2s ease-in;
+}
+/* Footer Section */
