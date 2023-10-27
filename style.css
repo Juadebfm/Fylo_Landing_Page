@@ -1,8 +1,5 @@
 /* Font download */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
 /* Font download */
 
 /* Variables */
@@ -23,3 +20,48 @@ font-family: 'Raleway', sans-serif; */
   --body-ff: 16px;
 }
 /* Variables */
+
+/* Body & Utilities */
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 2rem 4rem;
+  overflow-x: hidden;
+}
+/* Body & Utilities */
+
+/* Nav Section */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 0px;
+  margin-bottom: 4rem;
+}
+
+nav .logo img {
+  width: 120px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+main {
+}
+
+.hero {
+  display: flex;
+}
+/* Nav Section */
