@@ -1,0 +1,25 @@
+/* Font download */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+/* Font download */
+
+/* Variables */
+:root {
+  /* Primary */
+  --primary-blue: hsl(243, 87%, 12%);
+  --sec-blue: hsl(238, 22%, 44%);
+
+  /* Accent */
+  --tertiary-blue: hsl(224, 93%, 58%);
+  --mid-blue: hsl(170, 45%, 43%);
+
+  /* Neutral */
+  --lightest-grey-blue: hsl(240, 75%, 98%);
+  --light-grey: hsl(0, 0%, 75%);
+
+  /* Font Size */
+  --body-ff: 16px;
+}
+/* Variables */
