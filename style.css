@@ -109,6 +109,7 @@ main .hero .hero_details form {
   justify-content: center;
   gap: 12px;
   width: 80%;
+  position: relative;
 }
 
 main .hero .hero_details form input,
@@ -119,15 +120,32 @@ main .hero .hero_details form button {
 
 main .hero .hero_details form input {
   width: 68%;
-  padding: 9px;
+  padding: 9px 12px;
   border: 1px solid var(--primary-blue);
   color: var(--primary-blue);
   border-radius: 3px;
 }
 
-main .hero .hero_details form input:active,
-main .hero .hero_details form input:focus {
+main .hero .hero_details form input:active {
   outline: none;
+}
+
+main .hero .hero_details form span {
+  position: absolute;
+  display: none;
+  bottom: -30px;
+  left: 0px;
+  font-size: 85%;
+  color: rgb(170, 7, 7);
+}
+
+main .hero .hero_details form input:focus {
+  border: 1px solid rgb(170, 7, 7);
+  outline: none;
+}
+
+main .hero .hero_details form input:focus + span {
+  display: block;
 }
 
 main .hero .hero_details form input::placeholder {
